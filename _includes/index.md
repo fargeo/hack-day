@@ -4,7 +4,7 @@
 
 ### Wednesday, August 7, 2019:
 - **11:00AM-3:30PM:** Wine tasting
-- **3:30-9:00PM** Check-ing, discuss our goals over drinks and dinner 🍺
+- **3:30-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
 
 ### Thursday, August 8, 2019:
 - **9:00AM-12:00PM:** hack ⌨️
