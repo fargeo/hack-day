@@ -55,6 +55,9 @@ For this hack trip, we are going to be exploring a variety of tracks (three to s
         - Prompt the user to provide a resource instance ID, and use that ID to retreive resource instance data via the Arches API
         - Visualize Arches resource instance data in the add-in UI (for example, a tree of tile data or a mini report on individual tiles)
         - Show geospatial data for selected resource instance on the ArcGIS Pro map
+    - Required Software:
+        - ArcGIS Pro
+        - [Visual Studio](https://visualstudio.microsoft.com/) ([Mac C# setup guide](https://www.youtube.com/watch?v=71i5C0l4POw))
     - Reading:
         - [Build your first add-in](https://developers.arcgis.com/labs/pro/build-your-first-add-in/)
         - [ProGuide Build your first add in](https://github.com/Esri/arcgis-pro-sdk/wiki/ProGuide-Build-your-first-add-in)
