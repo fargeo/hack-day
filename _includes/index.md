@@ -44,10 +44,14 @@ For this hack trip, we are going to be exploring a variety of tracks (three to s
         - Implement the "Esri GeoServices" output for Koop
         - Use ArcGIS Pro (or similar) to visualize Arches data via Koop Esri GeoServices output
         - Explore ways to secure Koop services either natively or by proxying through Arches authentication
+    - Required Software:
+        - [NodeJS](https://nodejs.org/en/)
+        - [Yarn](https://yarnpkg.com/en/)
+        - [koop-cli](https://github.com/koopjs/koop-cli)
+        - ArcGIS Pro (for testing, possibly coordinate w/ track 2 team, since licenses are limited; we also may be able to use ArcGIS Online)
     - Reading:
         - [What is Koop?](https://koopjs.github.io/docs/basics/what-is-koop)
         - [Koop.js in Layman’s Terms](https://medium.com/@lusisuwandi/koop-js-in-laymans-terms-15549599ae7)
-        - [koop-cli](https://github.com/koopjs/koop-cli)
 2. Prototype an ArcGIS Pro add-in for accessing Arches resource instance data via API
     - Goals:
         - Create a simple ArcGIS Pro add-in
