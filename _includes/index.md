@@ -40,7 +40,6 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 For this hack trip, we are going to be exploring a variety of tracks (three to start), each with its own set of goals.
 1. Prototype an Arches Esri FeatureService using [Koop.js](https://koopjs.github.io/)
     - Goals:
-        - Use [koop-cli](https://github.com/koopjs/koop-cli) to create a new Koop app
         - Write a custom Koop provider that pulls data from Arches
         - Implement the "Esri GeoServices" output for Koop
         - Use ArcGIS Pro (or similar) to visualize Arches data via Koop Esri GeoServices output
@@ -48,6 +47,7 @@ For this hack trip, we are going to be exploring a variety of tracks (three to s
     - Reading:
         - [What is Koop?](https://koopjs.github.io/docs/basics/what-is-koop)
         - [Koop.js in Layman’s Terms](https://medium.com/@lusisuwandi/koop-js-in-laymans-terms-15549599ae7)
+        - [koop-cli](https://github.com/koopjs/koop-cli)
 2. Prototype an ArcGIS Pro add-in for accessing Arches resource instance data via API
     - Goals:
         - Create a simple ArcGIS Pro add-in
@@ -104,7 +104,12 @@ Members should feel free to change team membership or reorganize teams as needed
 
 ## Code organization
 
-Coding for items **1** & **2** will be done in branches of the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo (`koop_prototype` and `arcgis_pro_prototype` respectively).
+Coding for tracks **1** & **2** will be done in branches of the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo (`koop_prototype` and `arcgis_pro_prototype` respectively).
+
+For track **1**, after cloning the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo and checking out the `koop_prototype` branch, you will need to run the following to install dependencies:
+```
+yarn install
+```
 
 Each team will code in a separate branch, merging into `master` as needed.
 
