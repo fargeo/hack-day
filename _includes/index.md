@@ -68,6 +68,9 @@ For this hack trip, we are going to be exploring a variety of tracks (three to s
 3. Improve performance of the arches business data import routine
     - Goals:
         - Find ways to improve the overall performance of Arches business data load (concepts & resource instances)
+    - Commands:
+        -  python manage.py packages -o import_business_data -s consultations_prj/pkg/business_data/consultation_mock_data.csv -c consultations_prj/pkg/business_data/consultation_mock_data.mapping -bulk -ow overwrite
+        - python manage.py resources remove_resources -g 8d41e49e-a250-11e9-9eab-00224800b26d
     - Reading:
         - [How to Use Django Bulk Inserts for Greater Efficiency](https://www.caktusgroup.com/blog/2019/01/09/django-bulk-inserts/)
         - [Django Data Wizard](https://github.com/wq/django-data-wizard)
