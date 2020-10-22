@@ -1,27 +1,19 @@
-# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> August 2019 Hack Trip: Salinas
+# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> Fall 2020 Remote Hack Trip: Earth
 
-## Schedule: August 7-10, 2019
+## Schedule: Fall, 2020
 
-### Wednesday, August 7, 2019:
-- **11:00AM-3:30PM:** Wine tasting
-- **3:30-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
+##Docker Dev Hack
+### Friday, October 21, 2020:
+- **12:00PM-4:00PM:** Setup/Hack ⌨️
 
-### Thursday, August 8, 2019:
-- **9:00AM-12:00PM:** hack ⌨️
-- **12:00-1:00PM:** [lunch 🍴](#food)
-- **1:00-4:00PM:** hack 🖥
-- **4:00-5:00PM:** break 😅
-- **5:00PM-?:** hack 🛠 & [dinner🍴](#food)
+### Wednesday, October 21, 2020:
+- **12:00PM-4:00PM:** Hack ⌨️
 
-### Friday, August 9, 2019:
-- **9:00AM-12:00PM:** hack 💻
-- **12:00-1:00PM:** [lunch 🍴](#food)
-- **1:00-4:00PM:** hack 📱
-- **4:00-5:00PM:** break 😅
-- **5:00PM-?:** hack 🤘 & [dinner🍴](#food)
+### Friday, October 23, 2020:
+- **12:00PM-4:00PM:** Hack ⌨️
 
-### Saturday, August 10, 2019:
-- **9:00AM-12:00PM:** Debrief and head home 🚘
+### Wednesday, October 28, 2020:
+- **12:00PM-4:00PM:** Hack ⌨️
 
 ## Priorities
 
@@ -38,52 +30,18 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring a variety of tracks (three to start), each with its own set of goals.
-1. Prototype an Arches Esri FeatureService using [Koop.js](https://koopjs.github.io/)
+1. Create an Arches dev environment using Docker
     - Goals:
-        - Write a custom Koop provider that pulls data from Arches
-        - Implement the "Esri GeoServices" output for Koop
-        - Use ArcGIS Pro (or similar) to visualize Arches data via Koop Esri GeoServices output
-        - Explore ways to secure Koop services either natively or by proxying through Arches authentication
+        - Rewrite/update docker-compose, Dockerfile, and entrypoint.sh files as necessary
+        - Allow developer to link to local Arches directory to container
+        - Eliminate virtual env(?)
+        - Script project dependency load
+        - Script project/package load
+        - EXPLORATORY: Containerize projects with Arches container as a dependency
     - Required Software:
-        - [NodeJS](https://nodejs.org/en/)
-        - [Yarn](https://yarnpkg.com/en/)
-        - [koop-cli](https://github.com/koopjs/koop-cli)
-        - ArcGIS Pro (for testing, possibly coordinate w/ track 2 team, since licenses are limited; we also may be able to use ArcGIS Online)
-    - Reading:
-        - [What is Koop?](https://koopjs.github.io/docs/basics/what-is-koop)
-        - [Koop.js in Layman’s Terms](https://medium.com/@lusisuwandi/koop-js-in-laymans-terms-15549599ae7)
-2. Prototype an ArcGIS Pro add-in for accessing Arches resource instance data via API
-    - Goals:
-        - Create a simple ArcGIS Pro add-in
-        - Create a UI for the add-in that allows a user to authenticate via the Arches API
-        - Prompt the user to provide a resource instance ID, and use that ID to retreive resource instance data via the Arches API
-        - Visualize Arches resource instance data in the add-in UI (for example, a tree of tile data or a mini report on individual tiles)
-        - Show geospatial data for selected resource instance on the ArcGIS Pro map
-    - Required Software:
-        - ArcGIS Pro
-        - [Visual Studio](https://visualstudio.microsoft.com/) ([Mac C# setup guide](https://www.youtube.com/watch?v=71i5C0l4POw))
-    - Reading:
-        - [Build your first add-in](https://developers.arcgis.com/labs/pro/build-your-first-add-in/)
-        - [ProGuide Build your first add in](https://github.com/Esri/arcgis-pro-sdk/wiki/ProGuide-Build-your-first-add-in)
-3. Improve performance of the arches business data import routine
-    - Goals:
-        - Find ways to improve the overall performance of Arches business data load (concepts & resource instances)
-    - Commands:
-        -  python manage.py packages -o import_business_data -s consultations_prj/pkg/business_data/consultation_mock_data.csv -c consultations_prj/pkg/business_data/consultation_mock_data.mapping -bulk -ow overwrite
-        - python manage.py resources remove_resources -g 8d41e49e-a250-11e9-9eab-00224800b26d
-    - Reading:
-        - [How to Use Django Bulk Inserts for Greater Efficiency](https://www.caktusgroup.com/blog/2019/01/09/django-bulk-inserts/)
-        - [Django Data Wizard](https://github.com/wq/django-data-wizard)
-
-If deemed necessary, we can split off a fourth track:
-4. Use [Kibana](https://www.elastic.co/products/kibana) and custom ES indexes to build interactive dashboards for Arches
-    - Goals:
-        - Create a custom index that would calculate Statistics on Arches resources (eg total new records by model)
-        - Create a simple Kibana dashboard to render data from the new custom index
-        - Create an Arches plugin that would wrap the Kibana dashboard for use inside the Arches web application
-    - Reading:
-        - [Kibana User Guide](https://www.elastic.co/guide/en/kibana/6.7/introduction.html)
-        - [Kibana tutorial](https://logz.io/blog/kibana-tutorial/)
+        - [Docker Desktop](https://www.docker.com/products/docker-desktop)
+    - Resources:
+        - [Docker Mastery](https://www.udemy.com/course/docker-mastery/) Credentials in LastPass
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
@@ -95,64 +53,44 @@ Here are the initial team assignments:
 
 1. **Prototype an Arches Esri FeatureService using Koop.js**:
     - Ryan
-    - Rob
-    - Dennis
-2. **Prototype an ArcGIS Pro add-in for accessing Arches resource instance data via API**:
     - Namjun
-    - Adam
-    - Cyrus
-3. **Improve performance of the arches business data import routine**:
-    - Galen
-    - Alexei
-
-Each team should strive to hack together, on a single machine at a time.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
+    - Dennis
 
 Members should feel free to change team membership or reorganize teams as needed during the hack day.
 
 ## Code organization
 
-Coding for tracks **1** & **2** will be done in branches of the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo (`koop_prototype` and `arcgis_pro_prototype` respectively).
+Coding for tracks **1** will be done in branches of the [`archesproject/docker_dev`](https://github.com/archesproject/arches/tree/docker_dev) repo (`koop_prototype` and `arcgis_pro_prototype` respectively).
 
-For track **1**, after cloning the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo and checking out the `koop_prototype` branch, you will need to run the following to install dependencies:
-```
-yarn install
-```
+All team members will code in the same branch.
 
-Each team will code in a separate branch, merging into `master` as needed.
+<!-- Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo. -->
 
-Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches); we should create a new branch for each track that requires core arches development.
-
-Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
-
-After the trip, you can change your Arches repo's remote back with the following command:
-```
-git remote set-url origin https://github.com:archesproject/arches.git
-```
+<!-- After the trip, you can change your Arches repo's remote back with the following command: -->
+<!-- ```
+git remote set-url origin https://github.com:archesproject/arches.git -->
+<!-- ``` -->
 
 ## Preparation
 
 Please do the following before arriving:
 
 - re-read this page (it's being updated daily)
-- add or suggest food/drink places and/or activities (below)
-- if possible, bring adapters and cables (esp. HDMI) to connect your laptop to house TVs
 
-- change your arches repo remote to point to [`fargeo/arches`](https://github.com/fargeo/arches) and checkout the `salinas` branch by running the following:
+- switch your repo to be on the docker_dev branch [`archesproject/docker_dev`](https://github.com/archesproject/arches/tree/docker_dev) and checkout the `salinas` branch by running the following:
 ```
-git remote set-url origin https://github.com:fargeo/arches.git
-git fetch
-git checkout salinas
+git pull
+git checkout docker_dev
 ```
 
-- clone the [`fargeo/salinas`](https://github.com/fargeo/salinas) repo
+-Follow the instructions below
+
+1. In the docker-compose.yml change image setting under the Arches service from getty/arches:5.0  to your_name/arches:5.0
+2. In a terminal cd to to your core arches directory and run `docker-compose build`
+3. Once that’s done run `docker-compose up`
+4. Go to localhost:8000 and you should see Arches.
+
 
 
 ## Food
-
-Since we're in Salinas this time, most of the meals will be catered, but for dinner on Thursday and lunch on Friday were going to be on our own, so we'll need to pick destinations in/around Salinas for those meals.  Here are some options:
-
-🍴&🍻 | **Salinas** | **Monterey** 
---- | --- | --- 
- | [Patria](https://www.yelp.com/biz/patria-salinas) | [Montrio](https://www.montrio.com/menu/)
- |  | [Bull and Bear](https://bullandbearca.com/)
-{:.table}
+Anything you can find in your fridge.
