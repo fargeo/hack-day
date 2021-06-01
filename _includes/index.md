@@ -81,7 +81,7 @@ Here are the initial team assignments:
     - Namjun
     - Christopher
 
-Each team should strive to hack together, on a single machine at a time.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
+Each team should strive to hack together, on a single machine as much as possible.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
 
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
