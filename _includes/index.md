@@ -19,7 +19,7 @@
 - **4:00-5:00PM:** break 😅
 - **5:00PM-?:** hack 🤘 & dinner🍴
 
-### Wednesday, June 9:
+### Wednesday, June 9, 2021:
 - **9:00AM-10:00AM:** Debrief and head home 🚘
 
 ## Priorities
