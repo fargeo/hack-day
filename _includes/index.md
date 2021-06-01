@@ -1,19 +1,26 @@
-# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> Fall 2020 Remote Hack Trip: Earth
+# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> June 2021 Hack Trip: Sunriver
 
-## Schedule: Fall, 2020
+## Schedule: June 6-9, 2021
 
-##Docker Dev Hack
-### Friday, October 21, 2020:
-- **12:00PM-4:00PM:** Setup/Hack ⌨️
+### Sunday, June 6, 2019:
+- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
 
-### Wednesday, October 21, 2020:
-- **12:00PM-4:00PM:** Hack ⌨️
+### Thursday, June 7, 2019:
+- **9:00AM-12:00PM:** hack ⌨️
+- **12:00-1:00PM:** lunch 🍴
+- **1:00-4:00PM:** hack 🖥
+- **4:00-5:00PM:** break 😅
+- **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Friday, October 23, 2020:
-- **12:00PM-4:00PM:** Hack ⌨️
+### Friday, June 8, 2019:
+- **9:00AM-12:00PM:** hack 💻
+- **12:00-1:00PM:** lunch 🍴
+- **1:00-4:00PM:** hack 📱
+- **4:00-5:00PM:** break 😅
+- **5:00PM-?:** hack 🤘 & dinner🍴
 
-### Wednesday, October 28, 2020:
-- **12:00PM-4:00PM:** Hack ⌨️
+### Wednesday, June 9:
+- **9:00AM-10:00AM:** Debrief and head home 🚘
 
 ## Priorities
 
@@ -29,19 +36,30 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 
 ## Goals 💯
 
-For this hack trip, we are going to be exploring a variety of tracks (three to start), each with its own set of goals.
-1. Create an Arches dev environment using Docker
+For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
+1. Build a custom mobile application for an existing Arches workflow using Flutter
     - Goals:
-        - Rewrite/update docker-compose, Dockerfile, and entrypoint.sh files as necessary
-        - Allow developer to link to local Arches directory to container
-        - Eliminate virtual env(?)
-        - Script project dependency load
-        - Script project/package load
-        - EXPLORATORY: Containerize projects with Arches container as a dependency
+        - Deploy a hosted Arches For Science instance in AWS to be used during development
+        - Automate deployment and explore Dockerization, Kubernetes, and security concerns (stretch goal)
+        - Build a mobile application using Flutter that recreates the business process of an Arches For Science workflow using the Arches API.
     - Required Software:
-        - [Docker Desktop](https://www.docker.com/products/docker-desktop)
-    - Resources:
-        - [Docker Mastery](https://www.udemy.com/course/docker-mastery/) Credentials in LastPass
+        - [Flutter](https://flutter.dev/docs/get-started/install)
+    - Reading:
+        - [Write your first Flutter App](https://flutter.dev/docs/get-started/codelab)
+2. Export a relational schema from Arches resource models
+    - Goals:
+        - Write a script to automate generation of SQL from an existing Arches database that will create related tables for each nodegroup in a resource model
+        - Extend the script to support creation of database constraints based on graph/node datatypes and configurations (stretch goal)
+        - Write a script that will populate the relation schema created by the above script from existing Arches business data (stretch goal)
+3. Use Silk for profiling and optimization of Arches database queries
+    - Goals:
+        - use Silk to identify opportunites to optimize the load time for Arches pages/services
+        - based on query volume & timing, identify patterns to optimize Arches views
+        - implement high return optimizations in Arches view code
+    - Required Software:
+        - [django-silk](https://github.com/jazzband/django-silk)
+    - Reading:
+        - [Silk Docs](https://silk.readthedocs.io/en/latest/)
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
@@ -51,46 +69,49 @@ Group should be split into three (or four) teams working in 1-2 hour sprints on 
 
 Here are the initial team assignments:
 
-1. **Prototype an Arches Esri FeatureService using Koop.js**:
-    - Ryan
-    - Namjun
+1. **Build a custom mobile application for an existing Arches workflow using Flutter**:
+    - Rob
+    - Cyrus
+2. **Export a relational schema from Arches resource models**:
+    - Adam
     - Dennis
+    - Ryan
+3. **Use Silk for profiling and optimization of Arches database queries**:
+    - Alexei
+    - Namjun
+    - Christopher
 
-Members should feel free to change team membership or reorganize teams as needed during the hack day.
+Each team should strive to hack together, on a single machine at a time.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
+
+Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
 
-Coding for tracks **1** will be done in branches of the [`archesproject/docker_dev`](https://github.com/archesproject/arches/tree/docker_dev) repo (`koop_prototype` and `arcgis_pro_prototype` respectively).
+Coding for track **1** & **2** will be done in branches of the [`fargeo/sunriver`](https://github.com/fargeo/sunriver) repo (`flutter` and `schema_export` respectively).
 
-All team members will code in the same branch.
+Each team will code in a separate branch, merging work branches as needed.
 
-<!-- Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo. -->
+Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches); we should create a new branch (off of `stable/5.2.x`) for each track that requires core arches development.
 
-<!-- After the trip, you can change your Arches repo's remote back with the following command: -->
-<!-- ```
-git remote set-url origin https://github.com:archesproject/arches.git -->
-<!-- ``` -->
+Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
+
+After the trip, you can change your Arches repo's remote back with the following command:
+```
+git remote set-url origin https://github.com:archesproject/arches.git
+```
 
 ## Preparation
 
 Please do the following before arriving:
 
 - re-read this page (it's being updated daily)
+- if possible, bring adapters and cables (esp. HDMI) to connect your laptop to house TVs
 
-- switch your repo to be on the docker_dev branch [`archesproject/docker_dev`](https://github.com/archesproject/arches/tree/docker_dev) and checkout the `salinas` branch by running the following:
+- change your arches repo remote to point to [`fargeo/arches`](https://github.com/fargeo/arches) and checkout the `sunriver` branch by running the following:
 ```
-git pull
-git checkout docker_dev
+git remote set-url origin https://github.com:fargeo/arches.git
+git fetch
+git checkout sunriver
 ```
 
--Follow the instructions below
-
-1. In the docker-compose.yml change image setting under the Arches service from getty/arches:5.0  to your_name/arches:5.0
-2. In a terminal cd to to your core arches directory and run `docker-compose build`
-3. Once that’s done run `docker-compose up`
-4. Go to localhost:8000 and you should see Arches.
-
-
-
-## Food
-Anything you can find in your fridge.
+- clone the [`fargeo/sunriver`](https://github.com/fargeo/sunriver) repo
