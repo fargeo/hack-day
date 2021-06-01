@@ -2,17 +2,17 @@
 
 ## Schedule: June 6-9, 2021
 
-### Sunday, June 6, 2019:
+### Sunday, June 6, 2021:
 - **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
 
-### Thursday, June 7, 2019:
+### Thursday, June 7, 2021:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-4:00PM:** hack 🖥
 - **4:00-5:00PM:** break 😅
 - **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Friday, June 8, 2019:
+### Friday, June 8, 2021:
 - **9:00AM-12:00PM:** hack 💻
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-4:00PM:** hack 📱
