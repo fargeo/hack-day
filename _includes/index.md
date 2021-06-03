@@ -37,11 +37,15 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. Build a custom mobile application for an existing Arches workflow using Flutter
+1. Build a custom mobile application for the Arches-HER "Site Visit" workflow using Flutter
     - Goals:
         - Deploy a hosted Arches For Science instance in AWS to be used during development
         - Automate deployment and explore Dockerization, Kubernetes, and security concerns (stretch goal)
-        - Build a mobile application using Flutter that recreates the business process of an Arches For Science workflow using the Arches API.
+        - Build a mobile application using Flutter that recreates the business process of the Arches-HER "Site Visit" workflow using the Arches API, including:
+            - Authenticating a user
+            - Starting a new workflow
+            - Pages/forms for each step in the workflow
+        - Implement additional Arches-HER workflows in the same application (stretch goal)
     - Required Software:
         - [Flutter](https://flutter.dev/docs/get-started/install)
     - Reading:
@@ -71,13 +75,13 @@ Here are the initial team assignments:
 
 1. **Build a custom mobile application for an existing Arches workflow using Flutter**:
     - Rob
-    - Cyrus
+    - Alexei
 2. **Export a relational schema from Arches resource models**:
     - Adam
     - Dennis
     - Ryan
 3. **Use Silk for profiling and optimization of Arches database queries**:
-    - Alexei
+    - Cyrus
     - Namjun
     - Christopher
 
