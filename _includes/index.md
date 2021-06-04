@@ -95,7 +95,7 @@ Coding for track **1** & **2** will be done in branches of the [`fargeo/sunriver
 
 Each team will code in a separate branch, merging work branches as needed.
 
-Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches); we should create a new branch (off of `stable/5.2.x`) for each track that requires core arches development.
+Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches); branches for each project have been created in this repo (`sunriver_1`, `sunriver_2`, and `sunriver_3`)
 
 Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
 
