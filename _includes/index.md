@@ -67,7 +67,7 @@ Here are the initial team assignments:
     - Adam
     - Namjun
     - Rob
-3. **Prototype using an alternative front-end framework for Arches component(s) **:
+3. **Prototype using an alternative front-end framework for Arches component(s)**:
     - Aaron
     - Christopher
     - Ryan
