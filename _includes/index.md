@@ -15,9 +15,8 @@
 ### Wednesday, April 20, 2022:
 - **9:00AM-12:00PM:** hack 💻
 - **12:00-1:00PM:** lunch 🍴
-- **1:00-4:00PM:** hack 📱
-- **4:00-5:00PM:** break 😅
-- **5:00PM-?:** hack 🤘 & dinner🍴
+- **1:00-5:00PM:** hack 📱
+- **8:30-10:00PM** Manta Ray Night Snorkel with Anelakai Adventures (78-7138 Kaleiopapa St, Kailua-Kona, HI 96740)
 
 ### Thursday, April 21, 2022:
 - **9:00AM-10:00AM:** Debrief and head home 🚘
