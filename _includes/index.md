@@ -39,17 +39,31 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
 1. Flutter Arches SDK prototype development
     - Goals:
-        - 
+        - Create a prototype Arches Flutter SDK for creating Arches mobile applications
+        - Develop reusable component(s) for interacting with Arches API, for example:
+            - Login component
+            - Resource reports
+            - Resource instance map?
+        - Demonstrate how a Flutter application could use this SDK to integrate with an Arches server
     - Required Software:
         - [Flutter](https://flutter.dev/docs/get-started/install)
     - Reading:
         - [Write your first Flutter App](https://flutter.dev/docs/get-started/codelab)
 2. Geoprocessing/visualization stack using Arches relational views/additional use cases for Arches relational views
     - Goals:
-        - 
+        - Write a geoprocessing function using relational views then serve that up to Arches via pg_tileserve or otherwise
+        - Visualize/report on Arches data (USD SSC?) using off the shelf reporting tools for PostgreSQL
+        - Prototype a front end component for managing tile data directly in relational views using Django ORM
+    - Reading:
+        - [PostgreSQL reporting tools](https://www.postgresql.org/download/products/5-reporting-tools/)
 3. Prototype using an alternative front-end framework for Arches component(s) 
     - Goals:
-        - 
+        - Choose a framework with which to develop drop-in replacements for Arches components
+        - Prototype the development of Arches components (or pages) using an alternative framework. Possibilities include:
+            - resource designer/editor headers,
+            - resource instance forms (custom card components?)
+            - rework a simple page (resource edit history page?)
+        - Demonstrate how data flow within the new component tree and between the new and old (knockout) component trees
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
