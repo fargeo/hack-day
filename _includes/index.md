@@ -48,7 +48,7 @@ For this hack trip, we are going to be exploring three tracks, each with its own
     - Required Software:
         - [Flutter](https://flutter.dev/docs/get-started/install)
     - Reading:
-        - [Write your first Flutter App](https://flutter.dev/docs/get-started/codelab)
+        - [Developing Flutter Packages](https://docs.flutter.dev/development/packages-and-plugins/developing-packages)
 2. Geoprocessing/visualization stack using Arches relational views/additional use cases for Arches relational views
     - Goals:
         - Write a geoprocessing function using relational views then serve that up to Arches via pg_tileserve or otherwise
