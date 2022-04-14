@@ -46,7 +46,7 @@ body::after {
 
 @media only screen and (max-device-width: 480px) {
     main {
-        width: 300px;
+        width: 96%;
         margin: -210px 0 0 -150px;
     }
 }
