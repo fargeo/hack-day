@@ -110,14 +110,11 @@ git remote set-url origin https://github.com:archesproject/arches.git
 Please do the following before arriving:
 
 - re-read this page (it's being updated daily)
-- if possible, bring adapters and cables (esp. HDMI) to connect your laptop to house TVs
-
+- if possible, bring adapters and cables (esp. HDMI) to connect your laptop to TVs
 - change your arches repo remote to point to [`fargeo/arches`](https://github.com/fargeo/arches) by running the following:
 ```
 git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
-
 - checkout the branches you will be working on
-
 - clone the [`fargeo/kona`](https://github.com/fargeo/kona) repo
