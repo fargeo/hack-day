@@ -90,8 +90,7 @@ Each team should strive to hack together, on a single machine as much as possibl
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
-
-Non-Arches development for will be done in branches of the [`fargeo/kona`](https://github.com/fargeo/kona) repo.
+Non-Arches development will be done in branches of the [`fargeo/kona`](https://github.com/fargeo/kona) repo.
 
 Each team will code in a separate branch, merging work branches as needed.
 
