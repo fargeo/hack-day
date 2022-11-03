@@ -1,24 +1,25 @@
-# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> April 2022 Hack Trip: Kona
+# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> November 2022 Hack Trip: Pajaro Dunes
 
-## Schedule: April 18-21, 2022
+## Schedule: November 13-16, 2022
 
-### Monday, April 18, 2022:
+### Sunday, November 13, 2022:
 - **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
 
-### Tuesday, April 19, 2022:
+### Monday, November 14, 2022:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-4:00PM:** hack 🖥
 - **4:00-5:00PM:** break 😅
 - **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Wednesday, April 20, 2022:
-- **9:00AM-12:00PM:** hack 💻
+### Tuesday, November 15, 2022:
+- **8:00AM-12:00PM:** kayaking at Moss Landing 🚣‍♀️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:00PM:** hack 📱
-- **8:30-10:00PM** Manta Ray Night Snorkel with Anelakai Adventures (78-7138 Kaleiopapa St, Kailua-Kona, HI 96740)
+- **4:00-5:00PM:** break 😅
+- **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Thursday, April 21, 2022:
+### Wednesday, November 16, 2022:
 - **9:00AM-10:00AM:** Debrief and head home 🚘
 
 ## Priorities
@@ -36,33 +37,34 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. Flutter Arches SDK prototype development
+1. Develop a Django application to update business data in Arches using relational views
     - Goals:
-        - Create a prototype Arches Flutter SDK for creating Arches mobile applications
-        - Develop reusable component(s) for interacting with Arches API, for example:
-            - Login component
-            - Resource reports
-            - Resource instance map?
-        - Demonstrate how a Flutter application could use this SDK to integrate with an Arches server
+        - 
     - Required Software:
-        - [Flutter](https://flutter.dev/docs/get-started/install)
+        - 
     - Reading:
-        - [Developing Flutter Packages](https://docs.flutter.dev/development/packages-and-plugins/developing-packages)
-2. Geoprocessing/visualization stack using Arches relational views/additional use cases for Arches relational views
+        - 
+1. Develop a Django application to update business data in Arches using relational views
     - Goals:
-        - Write a geoprocessing function using relational views then serve that up to Arches via pg_tileserve or otherwise
-        - Visualize/report on Arches data (USD SSC?) using off the shelf reporting tools for PostgreSQL
-        - Prototype a front end component for managing tile data directly in relational views using Django ORM
+        - 
+    - Required Software:
+        - 
     - Reading:
-        - [PostgreSQL reporting tools](https://www.postgresql.org/download/products/5-reporting-tools/)
-3. Prototype using an alternative front-end framework for Arches component(s) 
+        - 
+1. Develop a Django application to update business data in Arches using relational views
     - Goals:
-        - Choose a framework with which to develop drop-in replacements for Arches components
-        - Prototype the development of Arches components (or pages) using an alternative framework. Possibilities include:
-            - resource designer/editor headers,
-            - resource instance forms (custom card components?)
-            - rework a simple page (resource edit history page?)
-        - Demonstrate how data flow within the new component tree and between the new and old (knockout) component trees
+        - 
+    - Required Software:
+        - 
+    - Reading:
+        - 
+1. Develop a Django application to update business data in Arches using relational views
+    - Goals:
+        - 
+    - Required Software:
+        - 
+    - Reading:
+        - 
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
@@ -72,17 +74,19 @@ Group should be split into three (or four) teams working in 1-2 hour sprints on 
 
 Here are the initial team assignments:
 
-1. **Flutter Arches SDK prototype development**:
-    - Alexei
-    - Cyrus
-    - Dennis
-2. **Geoprocessing/visualization stack using Arches relational views/additional use cases for Arches relational views**:
+1. **Develop a Django application to update business data in Arches using relational views**
     - Adam
-    - Namjun
-    - Rob
-3. **Prototype using an alternative front-end framework for Arches component(s)**:
+    - Alexei
+    - Johnathan
+2. **Automate common workflows in AWS for Arches using AWS step functions (or similar)**
     - Aaron
+    - Rob
+3. **Use ArcGIS Javascript API in Arches to export data to AGOL and visualize**
     - Christopher
+    - Namjun
+4. **Using PgFeatureServe to execute geoprocessing task via Arches map widget for data editing**
+    - Peter
+    - Dennis
     - Ryan
 
 Each team should strive to hack together, on a single machine as much as possible.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
