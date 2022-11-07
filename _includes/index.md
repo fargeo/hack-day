@@ -98,7 +98,7 @@ Each team should strive to hack together, on a single machine as much as possibl
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
-Non-Arches development will be done in branches of the [`fargeo/kona`](https://github.com/fargeo/kona) repo.
+Non-Arches development will be done in branches of the [`fargeo/pajaro`](https://github.com/fargeo/pajaro) repo.
 
 Each team will code in a separate branch, merging work branches as needed.
 
@@ -123,4 +123,4 @@ git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
 - checkout the branches you will be working on
-- clone the [`fargeo/kona`](https://github.com/fargeo/kona) repo
+- clone the [`fargeo/pajaro`](https://github.com/fargeo/pajaro) repo
