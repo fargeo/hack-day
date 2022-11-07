@@ -20,7 +20,7 @@
 - **5:00PM-?:** hack 🛠 & dinner 🍴
 
 ### Wednesday, November 16, 2022:
-- **9:00AM-10:00AM:** Debrief and head home 🚘
+- **9:00AM-12:00PM:** Debrief and head home 🚘
 
 ## Priorities
 
@@ -39,26 +39,30 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
 1. Develop a Django application to update business data in Arches using relational views
     - Goals:
-        - 
+        - Create a new Django application that connects to an Arches database with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - Generate relational views for resource models
+        - Create a Django view to generate a report for "Repair or Maintenance Activity" resources using ORM models of relational views
+        - Create an endpoint to update a "Repair or Maintenance Activity" via ORM models and implement that in the report to allow for editing
     - Required Software:
-        - 
+        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
     - Reading:
-        - 
-1. Develop a Django application to update business data in Arches using relational views
+        - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)
+        - [Django ORM Cookbook » 6. How to add a model for a database view](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/database_view.html)
+1. Automate common workflows in AWS for Arches using AWS step functions (or similar)
     - Goals:
         - 
     - Required Software:
         - 
     - Reading:
         - 
-1. Develop a Django application to update business data in Arches using relational views
+1. Use ArcGIS Javascript API in Arches to export data to AGOL and visualize
     - Goals:
         - 
     - Required Software:
         - 
     - Reading:
         - 
-1. Develop a Django application to update business data in Arches using relational views
+1. Use PgFeatureServe to execute geoprocessing task via Arches map widget for data editing
     - Goals:
         - 
     - Required Software:
@@ -84,7 +88,7 @@ Here are the initial team assignments:
 3. **Use ArcGIS Javascript API in Arches to export data to AGOL and visualize**
     - Christopher
     - Namjun
-4. **Using PgFeatureServe to execute geoprocessing task via Arches map widget for data editing**
+4. **Use PgFeatureServe to execute geoprocessing task via Arches map widget for data editing**
     - Peter
     - Dennis
     - Ryan
