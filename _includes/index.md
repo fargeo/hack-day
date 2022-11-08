@@ -42,33 +42,43 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - Create a new Django application that connects to an Arches database with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
         - Generate relational views for resource models
         - Create a Django view to generate a report for "Repair or Maintenance Activity" resources using ORM models of relational views
-        - Create an endpoint to update a "Repair or Maintenance Activity" via ORM models and implement that in the report to allow for editing
+        - Create an endpoint to update a "Repair or Maintenance Activity" via ORM models and implement that in the report page as a form to allow for editing
     - Required Software:
         - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
     - Reading:
         - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)
         - [Django ORM Cookbook » 6. How to add a model for a database view](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/database_view.html)
+        - [Arches documentation on "relational data model"](https://arches.readthedocs.io/en/stable/import-export/#sql-import)
 1. Automate common workflows in AWS for Arches using AWS step functions (or similar)
     - Goals:
-        - 
+        - Deploy a hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - ...
     - Required Software:
-        - 
+        - [AWS CLI](https://aws.amazon.com/cli/?pg=developertools)
+        - A hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
     - Reading:
-        - 
-1. Use ArcGIS Javascript API in Arches to export data to AGOL and visualize
+        - [AWS Step Functions](https://aws.amazon.com/step-functions/)
+1. Use ArcGIS Javascript API in Arches and export data to AGOL for visualization in Esri tools
     - Goals:
-        - 
+        - Build a component within Arches (plugin or widget) using ArcGIS API for JavaScript that shows overlays from:
+            - Esri (AGOL or portal) and
+            - Arches (MVT or GeoJSON) services
+        - Load Arches data into AGOL using MVT or GeoJSON services and visualize in Esri tools
+        - Extend ArcGIS API for JavaScript component in Arches to support editing geospatial data in Arches
     - Required Software:
-        - 
+        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - AGOL
     - Reading:
-        - 
-1. Use PgFeatureServe to execute geoprocessing task via Arches map widget for data editing
+        - [ArcGIS Javascript API](https://developers.arcgis.com/javascript/latest/)
+        - [ArcGIS Javascript API: Introduction to tooling](https://developers.arcgis.com/javascript/latest/tooling-intro/)
+1. Use pg_featureserv to execute geoprocessing task via Arches map widget for data editing
     - Goals:
-        - 
+        - ...
     - Required Software:
-        - 
+        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - [pg_featureserv](https://access.crunchydata.com/documentation/pg_featureserv/latest/quickstart/)
     - Reading:
-        - 
+        - [pg_featureserv documentation](https://access.crunchydata.com/documentation/pg_featureserv/latest/)
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
@@ -102,7 +112,7 @@ Non-Arches development will be done in branches of the [`fargeo/pajaro`](https:/
 
 Each team will code in a separate branch, merging work branches as needed.
 
-Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches).
+Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches).  We will be using the [esri_utils](https://github.com/fargeo/esri_utils) project as our default project unless teams determine otherwise.
 
 Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
 
