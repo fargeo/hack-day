@@ -73,7 +73,14 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - [ArcGIS Javascript API: Introduction to tooling](https://developers.arcgis.com/javascript/latest/tooling-intro/)
 1. Use pg_featureserv to execute geoprocessing task via Arches map widget for data editing
     - Goals:
-        - ...
+        - Run pg_featureserv connected to a PostgreSQL database with the Arches [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - Write a function in SQL to route between two Arches features (or similar geoprocessing task against Arches data)
+        - Create a service in pg_featureserv using the above function
+        - Modify the map component code to include
+            - a UI for defining inputs to the function (for example, the two resource instances to route between)
+            - a way to call the pg_featureserv service with those inputs
+            - a visualization of the results returned by that service
+            - a way to add those results as new geometries in an editing session
     - Required Software:
         - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
         - [pg_featureserv](https://access.crunchydata.com/documentation/pg_featureserv/latest/quickstart/)
