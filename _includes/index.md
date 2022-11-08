@@ -52,7 +52,12 @@ For this hack trip, we are going to be exploring three tracks, each with its own
 1. Automate common workflows in AWS for Arches using AWS step functions (or similar)
     - Goals:
         - Deploy a hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - ...
+        - Using AWS step functions, script some common Arches workflows, this might include:
+            - (Re)load Arches package
+            - Backup of database and indexes to S3 with a strategy for resolving missing indexed documents
+            - Reindex data
+            - ETL data into Arches
+            - Deploy additional dependencies for Arches (Cantaloupe, pg_featureserv, etc.)
     - Required Software:
         - [AWS CLI](https://aws.amazon.com/cli/?pg=developertools)
         - A hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
@@ -83,8 +88,9 @@ For this hack trip, we are going to be exploring three tracks, each with its own
             - a way to add those results as new geometries in an editing session
     - Required Software:
         - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - [pg_featureserv](https://access.crunchydata.com/documentation/pg_featureserv/latest/quickstart/)
+        - pg_featureserv deployed on the PostgreSQL instance used with Arches
     - Reading:
+        - [pg_featureserv quickstart guide](https://access.crunchydata.com/documentation/pg_featureserv/latest/quickstart/)
         - [pg_featureserv documentation](https://access.crunchydata.com/documentation/pg_featureserv/latest/)
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
