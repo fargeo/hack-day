@@ -100,7 +100,7 @@ Non-Arches development will be done in branches of the [`fargeo/san_diego_hack`]
 
 Each team will code in a separate branch, merging work branches as needed.
 
-Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches).  We will be using the [esri_utils](https://github.com/fargeo/esri_utils) project as our default project unless teams determine otherwise.
+Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches).  We will be using the [sfplanning](https://github.com/fargeo/sfplanning) project as our default project unless teams determine otherwise.
 
 Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
 
