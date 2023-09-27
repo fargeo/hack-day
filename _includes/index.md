@@ -37,28 +37,28 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. project....
+1. Data validation in the context of resource model changes, adding data integrity checks to the validate command
     - Goals:
         - 
     - Required Software:
         - 
     - Reading:
         - 
-2. project....
+2. Adding instrumentation/observability to Arches Stack to support distributed tracing
     - Goals:
         - 
     - Required Software:
         - 
     - Reading:
         - 
-3. project....
+3. Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches
     - Goals:
         - 
     - Required Software:
         - 
     - Reading:
         - 
-4. project....
+4. Prototype a Vue index page (or other page in arches)
     - Goals:
         - 
     - Required Software:
