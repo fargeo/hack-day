@@ -1,25 +1,25 @@
-# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> November 2022 Hack Trip: Pajaro Dunes
+# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> October 2023 Hack Trip: San Diego
 
-## Schedule: November 13-16, 2022
+## Schedule: October 4-7, 2023
 
-### Sunday, November 13, 2022:
+### Wednesday, October 4, 2023:
 - **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
 
-### Monday, November 14, 2022:
+### Thursday, October 5, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-4:00PM:** hack 🖥
 - **4:00-5:00PM:** break 😅
 - **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Tuesday, November 15, 2022:
-- **8:00AM-12:00PM:** kayaking at Moss Landing 🚣‍♀️
+### Friday, October 6, 2023:
+- **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:00PM:** hack 📱
 - **4:00-5:00PM:** break 😅
 - **5:00PM-?:** hack 🛠 & dinner 🍴
 
-### Wednesday, November 16, 2022:
+### Saturday, October 7, 2023:
 - **9:00AM-12:00PM:** Debrief and head home 🚘
 
 ## Priorities
@@ -37,61 +37,34 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. Develop a Django application to update business data in Arches using relational views
+1. project....
     - Goals:
-        - Create a new Django application that connects to an Arches database with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - Generate relational views for resource models
-        - Create a Django view to generate a report for "Repair or Maintenance Activity" resources using ORM models of relational views
-        - Create an endpoint to update a "Repair or Maintenance Activity" via ORM models and implement that in the report page as a form to allow for editing
+        - 
     - Required Software:
-        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - 
     - Reading:
-        - [Writing your first Django app, part 1](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)
-        - [Django ORM Cookbook » 6. How to add a model for a database view](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/database_view.html)
-        - [Arches documentation on "relational data model"](https://arches.readthedocs.io/en/stable/import-export/#sql-import)
-1. Automate common workflows in AWS for Arches using AWS step functions (or similar)
+        - 
+2. project....
     - Goals:
-        - Deploy a hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - Using AWS step functions, script some common Arches workflows, this might include:
-            - (Re)load Arches package
-            - Backup of database and indexes to S3 with a strategy for resolving missing indexed documents
-            - Reindex data
-            - ETL data into Arches
-            - Deploy additional dependencies for Arches (Cantaloupe, pg_featureserv, etc.)
+        - 
     - Required Software:
-        - [AWS CLI](https://aws.amazon.com/cli/?pg=developertools)
-        - A hosted sandbox Arches infrastructure with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
+        - 
     - Reading:
-        - [AWS Step Functions](https://aws.amazon.com/step-functions/)
-1. Use ArcGIS Javascript API in Arches and export data to AGOL for visualization in Esri tools
+        - 
+3. project....
     - Goals:
-        - Build a component within Arches (plugin or widget) using ArcGIS API for JavaScript that shows overlays from:
-            - Esri (AGOL or portal) and
-            - Arches (MVT or GeoJSON) services
-        - Load Arches data into AGOL using MVT or GeoJSON services and visualize in Esri tools
-        - Extend ArcGIS API for JavaScript component in Arches to support editing geospatial data in Arches
+        - 
     - Required Software:
-        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - AGOL
+        - 
     - Reading:
-        - [ArcGIS Javascript API](https://developers.arcgis.com/javascript/latest/)
-        - [ArcGIS Javascript API: Introduction to tooling](https://developers.arcgis.com/javascript/latest/tooling-intro/)
-1. Use pg_featureserv to execute geoprocessing task via Arches map widget for data editing
+        - 
+4. project....
     - Goals:
-        - Run pg_featureserv connected to a PostgreSQL database with the Arches [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - Write a function in SQL to route between two Arches features (or similar geoprocessing task against Arches data)
-        - Create a service in pg_featureserv using the above function
-        - Modify the map component code to include
-            - a UI for defining inputs to the function (for example, the two resource instances to route between)
-            - a way to call the pg_featureserv service with those inputs
-            - a visualization of the results returned by that service
-            - a way to add those results as new geometries in an editing session
+        - 
     - Required Software:
-        - Arches with the [esri_utils](https://github.com/fargeo/esri_utils) package loaded
-        - pg_featureserv deployed on the PostgreSQL instance used with Arches
+        - 
     - Reading:
-        - [pg_featureserv quickstart guide](https://access.crunchydata.com/documentation/pg_featureserv/latest/quickstart/)
-        - [pg_featureserv documentation](https://access.crunchydata.com/documentation/pg_featureserv/latest/)
+        - 
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
@@ -101,27 +74,29 @@ Group should be split into three (or four) teams working in 1-2 hour sprints on 
 
 Here are the initial team assignments:
 
-1. **Develop a Django application to update business data in Arches using relational views**
+1. **Data validation in the context of resource model changes, adding data integrity checks to the validate command**
     - Adam
-    - Alexei
+    - Jacob
     - Johnathan
-2. **Automate common workflows in AWS for Arches using AWS step functions (or similar)**
+2. **Adding instrumentation/observability to Arches Stack to support distributed tracing**
     - Aaron
     - Rob
-3. **Use ArcGIS Javascript API in Arches to export data to AGOL and visualize**
-    - Christopher
-    - Namjun
-4. **Use PgFeatureServe to execute geoprocessing task via Arches map widget for data editing**
-    - Peter
-    - Dennis
     - Ryan
+3. **Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches**
+    - Cyrus
+    - Namjun
+    - Peter
+4. **Prototype a Vue index page (or other page in arches)**
+    - Alexei
+    - Christopher
+    - Dennis
 
 Each team should strive to hack together, on a single machine as much as possible.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
 
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
-Non-Arches development will be done in branches of the [`fargeo/pajaro`](https://github.com/fargeo/pajaro) repo.
+Non-Arches development will be done in branches of the [`fargeo/san_diego_hack`](https://github.com/fargeo/san_diego_hack) repo.
 
 Each team will code in a separate branch, merging work branches as needed.
 
@@ -146,4 +121,4 @@ git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
 - checkout the branches you will be working on
-- clone the [`fargeo/pajaro`](https://github.com/fargeo/pajaro) repo
+- clone the [`fargeo/san_diego_hack`](https://github.com/fargeo/san_diego_hack) repo
