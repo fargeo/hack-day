@@ -37,20 +37,17 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. Data validation in the context of resource model changes, adding data integrity checks to the validate command
+1. Adding data integrity checks to the validate command (esp. in the context of resource model changes)
     - Goals:
-        - 
-    - Required Software:
-        - 
-    - Reading:
-        - 
+        - Investigate and enumerate the domain of data integrity checks (checking business data relative to model definition) for Arches data
+        - Implement logic to perform these checks (preferably in a way that is reusable in both the DB and application)
+        - Add these checks to the validate command
 2. Adding instrumentation/observability to Arches Stack to support distributed tracing
     - Goals:
-        - 
-    - Required Software:
-        - 
+        - visualize distributed trace in arches
     - Reading:
-        - 
+        - [OpenTelemetry - Getting Started](https://opentelemetry.io/docs/collector/getting-started/)
+        - [Getting started with OpenTelemetry visualization](https://signoz.io/blog/opentelemetry-visualization/)
 3. Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches
     - Goals:
         - 
@@ -58,13 +55,14 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - 
     - Reading:
         - 
-4. Prototype a Vue index page (or other page in arches)
+4. Prototype a Vue-based Arches index page
     - Goals:
-        - 
-    - Required Software:
-        - 
+        - Redesign index page for Arches to modernize and add modularity
+        - Rebuild index page using Vue (and PrimeVue?) and eliminating old/distinct dependencies
+        - "Componentize" index page to allow for modularity/configurability
     - Reading:
-        - 
+        - [PrimeVue](https://primevue.org/)
+
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
 
