@@ -15,8 +15,8 @@
 ### Friday, October 6, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
-- **1:00-3:00PM:** hack 📱
-- **3:00-5:00PM:** team activity
+- **1:00-2:30PM:** hack 📱
+- **2:30-5:00PM:** team activity
 - **5:00PM-?:** dinner 🍴 & drinks 🍺
 
 ### Saturday, October 7, 2023:
