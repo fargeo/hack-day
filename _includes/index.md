@@ -3,7 +3,7 @@
 ## Schedule: October 4-7, 2023
 
 ### Wednesday, October 4, 2023:
-- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺
+- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at [El Salvadoreño](https://elsalvadorenosd.com/)
 
 ### Thursday, October 5, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
