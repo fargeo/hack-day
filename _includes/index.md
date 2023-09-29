@@ -44,7 +44,8 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - Add these checks to the validate management command
 2. Adding instrumentation/observability to Arches Stack to support distributed tracing
     - Goals:
-        - visualize distributed trace in arches
+        - Use OpenTelemetry to get telemetry from Arches software dependencies and code
+        - Create and visualize a distributed trace in arches using OpenTelemetry
     - Reading:
         - [OpenTelemetry - Getting Started](https://opentelemetry.io/docs/collector/getting-started/)
         - [Getting started with OpenTelemetry visualization](https://signoz.io/blog/opentelemetry-visualization/)
