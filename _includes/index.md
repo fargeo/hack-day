@@ -41,7 +41,7 @@ For this hack trip, we are going to be exploring three tracks, each with its own
     - Goals:
         - Investigate and enumerate the domain of data integrity checks (checking business data relative to model definition) for Arches data
         - Implement logic to perform these checks (preferably in a way that is reusable in both the DB and application)
-        - Add these checks to the validate command
+        - Add these checks to the validate management command
 2. Adding instrumentation/observability to Arches Stack to support distributed tracing
     - Goals:
         - visualize distributed trace in arches
@@ -50,11 +50,15 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - [Getting started with OpenTelemetry visualization](https://signoz.io/blog/opentelemetry-visualization/)
 3. Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches
     - Goals:
-        - 
+        - Create feature classes (or other entities) in ArcGIS Online to support managing field data collection
+        - Export Arches data to ArcGIS Online entities using custom exporter
+        - Create a Survey123 workflow to mirror the existing field data collection workflow in Arches
+        - Import data back into Arches from ArcGIS Online
+        - Include images submitted via Survey123 in the import into Arches (stretch goal)
     - Required Software:
-        - 
+        - ArcGIS Online & ArcGIS Survey123 (Cloud)
     - Reading:
-        - 
+        - [ArcGIS Survey123](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/overview?rsource=%2Fen-us%2Farcgis%2Fproducts%2Fsurvey123%2Foverview)
 4. Prototype a Vue-based Arches index page
     - Goals:
         - Redesign index page for Arches to modernize and add modularity
