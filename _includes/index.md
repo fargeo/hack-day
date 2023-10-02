@@ -16,7 +16,7 @@
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-2:30PM:** hack 📱
-- **2:30-5:00PM:** team activity
+- **3:00:** meet time at Star Park in Coronado (1030 Park Place, Coronado)
 - **5:00PM:** dinner 🍴 & drinks 🍺 at [Coronado Brewing](https://coronadobrewing.com/updated-hours-and-offerings/)
 
 ### Saturday, October 7, 2023:
