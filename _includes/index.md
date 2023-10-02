@@ -8,16 +8,16 @@
 ### Thursday, October 5, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
-- **1:00-4:00PM:** hack 🖥
-- **4:00-5:00PM:** break 😅
-- **5:00PM-?:** hack 🛠 & dinner 🍴
+- **1:00-5:30PM:** hack 🖥
+- **5:30-6:00PM:** break 😅
+- **7:00PM:** dinner at [Karina's Seafood](https://www.karinasseafood.com/gaslamp-quarter/)🍴
 
 ### Friday, October 6, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-2:30PM:** hack 📱
 - **2:30-5:00PM:** team activity
-- **5:00PM-?:** dinner 🍴 & drinks 🍺 @ [Coronado Brewing](https://coronadobrewing.com/updated-hours-and-offerings/)
+- **5:00PM:** dinner 🍴 & drinks 🍺 at [Coronado Brewing](https://coronadobrewing.com/updated-hours-and-offerings/)
 
 ### Saturday, October 7, 2023:
 - **9:00AM-12:00PM:** Debrief and head home 🚘
