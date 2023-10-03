@@ -1,5 +1,6 @@
 # <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> October 2023 Hack Trip: San Diego
 
+## Venue
 [2619 Imperial Ave<br />San Diego CA 92102](https://maps.app.goo.gl/ZSFUXNMgirHxFhhb6)
 
 ## Schedule: October 4-7, 2023
