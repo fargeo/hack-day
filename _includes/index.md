@@ -1,28 +1,32 @@
-# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> October 2023 Hack Trip: San Diego
+# <img src="img/fargeo.png" style="width: 100px; margin-right:10px;"/> October 2024 Hack Trip: Palm Springs
 
 ## Venue
-[2619 Imperial Ave<br />San Diego CA 92102](https://maps.app.goo.gl/ZSFUXNMgirHxFhhb6)
+**Blackhaus**<br/>
+[Check in & Accomodation Information](https://avantstay.com/reservation-hub/8GKLDGVK/things-to-know?token=5WYKmJ2DGWt7XdMxYM%2BzGf%2FKHum7U6xFFrCusXCz5CJLOSyYvWmF7wxMDAO0s6Ro7egOm9NU1F9hofL9QpM3%2FA%3D%3D)<br/>
+Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.gl/aeM7tc6C88WYVGbJ7)
 
-## Schedule: October 4-7, 2023
+## Schedule: October 13-16, 2023
 
-### Wednesday, October 4, 2023:
-- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at [El Salvadoreño](https://elsalvadorenosd.com/)
+### Sunday, October 13, 2023:
+- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at ...
 
-### Thursday, October 5, 2023:
+### Monday, October 14, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
-- **7:00PM:** dinner at [Karina's Seafood](https://www.karinasseafood.com/gaslamp-quarter/)🍴
+- **7:00PM:** dinner at ...🍴
 
-### Friday, October 6, 2023:
-- **9:00AM-12:00PM:** hack ⌨️
-- **12:00-1:00PM:** lunch 🍴
-- **1:00-2:30PM:** hack 📱
-- **3:00PM:** meet time at [Star Park in Coronado](https://maps.app.goo.gl/3yexuUVyYAJDxRr37)
-- **5:00PM:** dinner 🍴 & drinks 🍺 at [Coronado Brewing](https://coronadobrewing.com/updated-hours-and-offerings/)
+### Tuesday, October 15, 2023:
+- **7:00AM-11:30PM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
+    - Depart by 7am to arrive at 8am for waivers and safety briefings
+    - [Directions](https://maps.app.goo.gl/nxAVhh9GLa16e9DM9)
+- **11:30-1:00PM:** lunch & travel back to Blackhaus 🍴
+- **1:00-5:30PM:** hack 🖥
+- **5:30-6:00PM:** break 😅
+- **7:00PM:** dinner at ...🍴
 
-### Saturday, October 7, 2023:
+### Wednesday, October 16, 2023:
 - **9:00AM-12:00PM:** Debrief and head home 🚘
 
 ## Priorities
@@ -40,36 +44,26 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 ## Goals 💯
 
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
-1. Adding data integrity checks to the validate command (esp. in the context of resource model changes)
+1. **Create arches application to replace mapbox-gl-js with MapLibre**
     - Goals:
-        - Investigate and enumerate the domain of data integrity checks (checking business data relative to model definition) for Arches data
-        - Implement logic to perform these checks (preferably in a way that is reusable in both the DB and application)
-        - Add these checks to the validate management command
-2. Adding instrumentation/observability to Arches Stack to support distributed tracing
-    - Goals:
-        - Use OpenTelemetry to get telemetry from Arches software dependencies and code
-        - Create and visualize a distributed trace in arches using OpenTelemetry
+        - Insert goals here
     - Reading:
-        - [OpenTelemetry - Getting Started](https://opentelemetry.io/docs/collector/getting-started/)
-        - [Getting started with OpenTelemetry visualization](https://signoz.io/blog/opentelemetry-visualization/)
-3. Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches
+        - Any relevant readings here
+2. **Python/Go Compare Arches Companion benchmarks to Arches, optimize arches based on companion implementation (resources API)**
     - Goals:
-        - Create feature classes (or other entities) in ArcGIS Online to support managing field data collection
-        - Export Arches data to ArcGIS Online entities using custom exporter
-        - Create a Survey123 workflow to mirror the existing field data collection workflow in Arches
-        - Import data back into Arches from ArcGIS Online
-        - Include images submitted via Survey123 in the import into Arches (stretch goal)
-    - Required Software:
-        - ArcGIS Online & ArcGIS Survey123 (Cloud)
+        - Insert goals here
     - Reading:
-        - [ArcGIS Survey123](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/overview?rsource=%2Fen-us%2Farcgis%2Fproducts%2Fsurvey123%2Foverview)
-4. Prototype a Vue-based Arches index page
+        - Any relevant readings here
+3. **General performance improvements (N+1 queries, caching, psycopg 3, UUIDv7, add index to resourceid in edit log)**
     - Goals:
-        - Redesign index page for Arches to modernize and add modularity
-        - Rebuild index page using Vue (and PrimeVue?) and eliminating old/distinct dependencies
-        - "Componentize" index page to allow for modularity/configurability
+        - Insert goals here
     - Reading:
-        - [PrimeVue](https://primevue.org/)
+        - Any relevant readings here
+4. **Lessons/philosophizing on better resource forecasting (using Zoho or other tools)**
+    - Goals:
+        - Insert goals here
+    - Reading:
+        - Any relevant readings here
 
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
@@ -80,21 +74,21 @@ Group should be split into three (or four) teams working in 1-2 hour sprints on 
 
 Here are the initial team assignments:
 
-1. **Data validation in the context of resource model changes, adding data integrity checks to the validate command**
-    - Adam
-    - Jacob
+1. **Create arches application to replace mapbox-gl-js with MapLibre**
+    - Christopher
     - Johnathan
-2. **Adding instrumentation/observability to Arches Stack to support distributed tracing**
-    - Aaron
     - Rob
-    - Ryan
-3. **Recreate SF Planning field data collection workflow using Survey 123, arcgis online and a custom importer to arches**
+2. **Python/Go Compare Arches Companion benchmarks to Arches, optimize arches based on companion implementation (resources API)**
+    - Alexei
+    - Jacob
+    - Dennis
+3. **General performance improvements (N+1 queries, caching, psycopg 3, UUIDv7, add index to resourceid in edit log)**
+    - Aaron
     - Cyrus
     - Namjun
+4. **Lessons/philosophizing on better resource forecasting (using Zoho or other tools)**
+    - Adam
     - Peter
-4. **Prototype a Vue index page (or other page in arches)**
-    - Alexei
-    - Christopher
     - Dennis
 
 Each team should strive to hack together, on a single machine as much as possible.  The driver role should rotate every 20-30 minutes and each member should drive at least once per sprint.
@@ -102,7 +96,7 @@ Each team should strive to hack together, on a single machine as much as possibl
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
-Non-Arches development will be done in branches of the [`fargeo/san_diego_hack`](https://github.com/fargeo/san_diego_hack) repo.
+Non-Arches development will be done in branches of the [`fargeo/palm_springs_hack`](https://github.com/fargeo/palm_springs_hack) repo.
 
 Each team will code in a separate branch, merging work branches as needed.
 
@@ -127,4 +121,4 @@ git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
 - checkout the branches you will be working on
-- clone the [`fargeo/san_diego_hack`](https://github.com/fargeo/san_diego_hack) repo
+- clone the [`fargeo/palm_springs_hack`](https://github.com/fargeo/palm_springs_hack) repo
