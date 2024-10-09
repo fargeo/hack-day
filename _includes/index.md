@@ -88,6 +88,7 @@ Here are the initial team assignments:
     - Namjun
 4. **Lessons/philosophizing on better resource forecasting (using Zoho or other tools)**
     - Adam
+    - Alex
     - Peter
     - Dennis
 
