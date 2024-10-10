@@ -46,9 +46,13 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
 1. **Create arches application to replace mapbox-gl-js with MapLibre**
     - Goals:
-        - Insert goals here
+        - Create an arches application to drop-in replace current Arches mapping components
+        - Replace all Mapbox GL JS usage with MapLibre
+        - Create a migration to swap out any Mapbox services with free services such as OpenFreeMap
+        - (Stretch goal) Upgrade to the latest MapLibre (not directly Mapbox GL JS compatible), and replacing Knockout usage with VueJS
     - Reading:
-        - Any relevant readings here
+        - [MapLibre "MapBox migration guide"](https://maplibre.org/maplibre-gl-js/docs/guides/mapbox-migration-guide/)
+        - [OpenFreeMap](https://openfreemap.org/quick_start/)
 2. **Python/Go Compare Arches Companion benchmarks to Arches, optimize arches based on companion implementation (resources API)**
     - Goals:
         - Insert goals here
