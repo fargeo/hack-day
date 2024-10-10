@@ -73,11 +73,11 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - [Airspeed Velocity documentation](https://asv.readthedocs.io/en/latest/)
 4. **Lessons/philosophizing on better resource forecasting (using Zoho or other tools)**
     - Goals:
-        - How to better integrate long-term forcasting with project scoping & developing project scopes from resources in Zoho
-        - How to compare forcasted time vs billed time, either as a Harvest+Zoho integration, or using Zoho to measure billed time
+        - How to better integrate long-term forecasting with project scoping & developing project scopes from resources in Zoho
+        - How to compare forecasted time vs billed time, either as a Harvest+Zoho integration, or using Zoho to measure billed time
         - Identify metrics for determining when new team members need to be brought in
         - How to better integrate Zoho into Monday morning & Resource Allocation meetings
-        - Philosophizations about "top-down" (from PM's) and "bottom-up" (from Developers) for weekly time estimations
+        - Philosophize about "top-down" (from PM's) and "bottom-up" (from Developers) for weekly time estimations
             - Identify an integration path (if any) for Github Projects & Zoho
     - Reading:
         - Any relevant readings here
