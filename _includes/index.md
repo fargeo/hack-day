@@ -46,28 +46,43 @@ Priorities #1-4 are **essential**.  Priority #5 would be nice to have.
 For this hack trip, we are going to be exploring three tracks, each with its own set of goals.
 1. **Create arches application to replace mapbox-gl-js with MapLibre**
     - Goals:
-        - Create an arches application to drop-in replace current Arches mapping components
+        - Create an arches application to drop-in replace current Arches front-end mapping components
         - Replace all Mapbox GL JS usage with MapLibre
         - Create a migration to swap out any Mapbox services with free services such as OpenFreeMap
         - (Stretch goal) Upgrade to the latest MapLibre (not directly Mapbox GL JS compatible), and replacing Knockout usage with VueJS
+        - (Stretch goal) Encapsulating **all** Arches mapping capabilities into the new Arches Mapping Application (back-end)
     - Reading:
         - [MapLibre "MapBox migration guide"](https://maplibre.org/maplibre-gl-js/docs/guides/mapbox-migration-guide/)
         - [OpenFreeMap](https://openfreemap.org/quick_start/)
 2. **Python/Go Compare Arches Companion benchmarks to Arches, optimize arches based on companion implementation (resources API)**
     - Goals:
-        - Insert goals here
+        - Comprehend Go implementation
+        - Make optimizations to Arches (specifically focusing on resources API) based on these insights
+        - (Stretch goal) Implement Arches Companion as an arches application
+        - Collaborate on optimization implementations with Group #3
     - Reading:
-        - Any relevant readings here
+        - Python Global Interpreter lock
+    - Need access to:
+        - Arches Companion repo
 3. **General performance improvements (N+1 queries, caching, psycopg 3, UUIDv7, add index to resourceid in edit log)**
     - Goals:
-        - Insert goals here
+        - Starting with user pain points, identify areas in Arches for obvious performance improvements
+        - Implement benchmarking to measure optimizations
+        - Collaborate on optimization implementations with Group #2
     - Reading:
-        - Any relevant readings here
+        - [Airspeed Velocity documentation](https://asv.readthedocs.io/en/latest/)
 4. **Lessons/philosophizing on better resource forecasting (using Zoho or other tools)**
     - Goals:
-        - Insert goals here
+        - How to better integrate long-term forcasting with project scoping & developing project scopes from resources in Zoho
+        - How to compare forcasted time vs billed time, either as a Harvest+Zoho integration, or using Zoho to measure billed time
+        - Identify metrics for determining when new team members need to be brought in
+        - How to better integrate Zoho into Monday morning & Resource Allocation meetings
+        - Philosophizations about "top-down" (from PM's) and "bottom-up" (from Developers) for weekly time estimations
+            - Identify an integration path (if any) for Github Projects & Zoho
     - Reading:
         - Any relevant readings here
+    - Preparations:
+        - Create a sandbox projects in Zoho and Harvest for testing integrations
 
 
 At the conclusion of our work, each team should be prepared to briefly (15-30 minutes) present their results and findings to the other teams.
@@ -101,11 +116,8 @@ Each team should strive to hack together, on a single machine as much as possibl
 Members should feel free to change team membership or reorganize teams as desired during the hack.
 
 ## Code organization
-Non-Arches development will be done in branches of the [`fargeo/palm_springs_hack`](https://github.com/fargeo/palm_springs_hack) repo.
 
-Each team will code in a separate branch, merging work branches as needed.
-
-Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches).  We will be using the [sfplanning](https://github.com/fargeo/sfplanning) project as our default project unless teams determine otherwise.
+Core Arches development work will be done in branches of the [`fargeo/arches` fork](https://github.com/fargeo/arches) and should target v8. We will be using the [Arches Lingo](https://github.com/archesproject/arches-lingo) project as our default project unless teams determine otherwise.
 
 Instead of cloning the `fargeo/arches` fork, it is probably much easier to just [change remote](#preparation) on your existing local arches repo.
 
@@ -125,5 +137,4 @@ Please do the following before arriving:
 git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
-- checkout the branches you will be working on
-- clone the [`fargeo/palm_springs_hack`](https://github.com/fargeo/palm_springs_hack) repo
+- checkout the branches you will be working on (e.g. an Arches Application)
