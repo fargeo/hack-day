@@ -18,10 +18,10 @@ Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.g
 - **7:00PM:** dinner at ...🍴
 
 ### Tuesday, October 15, 2023:
-- **7:00AM-11:30PM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
+- **7:00AM-11:30AM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
     - Depart by 7am to arrive at 8am for waivers and safety briefings
     - [Directions](https://maps.app.goo.gl/nxAVhh9GLa16e9DM9)
-- **11:30-1:00PM:** lunch & travel back to Blackhaus 🍴
+- **11:30AM-1:00PM:** lunch & travel back to Blackhaus 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
 - **7:00PM:** dinner at ...🍴
