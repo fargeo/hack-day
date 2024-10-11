@@ -8,14 +8,14 @@ Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.g
 ## Schedule: October 13-16, 2023
 
 ### Sunday, October 13, 2023:
-- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at ...
+- **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at TBD
 
 ### Monday, October 14, 2023:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
-- **7:00PM:** dinner at ...🍴
+- **7:00PM:** dinner at TBD🍴
 
 ### Tuesday, October 15, 2023:
 - **7:00AM-11:30AM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
@@ -24,7 +24,7 @@ Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.g
 - **11:30AM-1:00PM:** lunch & travel back to Blackhaus 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
-- **7:00PM:** dinner at ...🍴
+- **7:00PM:** dinner at TBD🍴
 
 ### Wednesday, October 16, 2023:
 - **9:00AM-12:00PM:** Debrief and head home 🚘
@@ -79,8 +79,6 @@ For this hack trip, we are going to be exploring three tracks, each with its own
         - How to better integrate Zoho into Monday morning & Resource Allocation meetings
         - Philosophize about "top-down" (from PM's) and "bottom-up" (from Developers) for weekly time estimations
             - Identify an integration path (if any) for Github Projects & Zoho
-    - Reading:
-        - Any relevant readings here
     - Preparations:
         - Create a sandbox projects in Zoho and Harvest for testing integrations
 
@@ -138,3 +136,11 @@ git remote set-url origin https://github.com:fargeo/arches.git
 git fetch
 ```
 - checkout the branches you will be working on (e.g. an Arches Application)
+
+## Food options
+
+- [La Bonita's](https://www.google.com/maps/place/La+Bonita's+-+Palm+Springs,+CA/@33.8192336,-116.5496746,2123m/data=!3m1!1e3!4m7!3m6!1s0x80db1bbae0d01189:0x8b5c9d23e8c277c9!8m2!3d33.8273431!4d-116.546603!15sCgtSZXN0YXVyYW50c1oNIgtyZXN0YXVyYW50c5IBEm1leGljYW5fcmVzdGF1cmFudOABAA!16s%2Fg%2F11cks7kt5d?entry=tts&g_ep=EgoyMDI0MTAwMi4xIPu8ASoASAFQAw%3D%3D)
+- [Rooster and the Pig](http://www.roosterandthepig.com/)
+- [Sammy G's Tuscan Grill](http://www.sammygsrestaurant.com/)
+- [Lulu California Bistro](https://lulupalmsprings.com/)
+- [Farm](http://www.farmpalmsprings.com/)
