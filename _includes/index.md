@@ -5,19 +5,19 @@
 [Check in & Accomodation Information](https://avantstay.com/reservation-hub/8GKLDGVK/things-to-know?token=5WYKmJ2DGWt7XdMxYM%2BzGf%2FKHum7U6xFFrCusXCz5CJLOSyYvWmF7wxMDAO0s6Ro7egOm9NU1F9hofL9QpM3%2FA%3D%3D)<br/>
 Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.gl/aeM7tc6C88WYVGbJ7)
 
-## Schedule: October 13-16, 2023
+## Schedule: October 13-16, 2024
 
-### Sunday, October 13, 2023:
+### Sunday, October 13, 2024:
 - **5:00-9:00PM** Check-in, discuss our goals over drinks and dinner 🍺 at TBD
 
-### Monday, October 14, 2023:
+### Monday, October 14, 2024:
 - **9:00AM-12:00PM:** hack ⌨️
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
 - **7:00PM:** dinner at [Lulu California Bistro](https://lulupalmsprings.com/)🍴
 
-### Tuesday, October 15, 2023:
+### Tuesday, October 15, 2024:
 - **7:00AM-11:30AM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
     - Depart by 7am to arrive at 8am for waivers and safety briefings
     - [Directions](https://maps.app.goo.gl/nxAVhh9GLa16e9DM9)
@@ -26,7 +26,7 @@ Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.g
 - **5:30-6:00PM:** break 😅
 - **7:00PM:** dinner at TBD🍴
 
-### Wednesday, October 16, 2023:
+### Wednesday, October 16, 2024:
 - **9:00AM-12:00PM:** Debrief and head home 🚘
 
 ## Priorities
@@ -139,8 +139,20 @@ git fetch
 
 ## Food options
 
+### Restaurants
+
 - [La Bonita's](https://www.google.com/maps/place/La+Bonita's+-+Palm+Springs,+CA/@33.8192336,-116.5496746,2123m/data=!3m1!1e3!4m7!3m6!1s0x80db1bbae0d01189:0x8b5c9d23e8c277c9!8m2!3d33.8273431!4d-116.546603!15sCgtSZXN0YXVyYW50c1oNIgtyZXN0YXVyYW50c5IBEm1leGljYW5fcmVzdGF1cmFudOABAA!16s%2Fg%2F11cks7kt5d?entry=tts&g_ep=EgoyMDI0MTAwMi4xIPu8ASoASAFQAw%3D%3D)
 - [Rooster and the Pig](http://www.roosterandthepig.com/)
 - [Sammy G's Tuscan Grill](http://www.sammygsrestaurant.com/)
 - [Lulu California Bistro](https://lulupalmsprings.com/)
 - [Farm](http://www.farmpalmsprings.com/)
+
+### Groceries
+
+- [Grocery Outlet](https://maps.app.goo.gl/RLrn5LNTK1RwHgpB6)
+- [Ralphs](https://maps.app.goo.gl/Fy5FCxFYgXit7T3T8)
+
+### Coffee
+
+- [Ristretto](https://maps.app.goo.gl/jyMBDWha4kkiLZ9d7)
+- [La Bottega](https://maps.app.goo.gl/D5kYGMwVvejQkyXh9)
