@@ -15,7 +15,7 @@ Address: [421 S Calle Encilia<br/>Palm Springs, CA 92262](https://maps.app.goo.g
 - **12:00-1:00PM:** lunch 🍴
 - **1:00-5:30PM:** hack 🖥
 - **5:30-6:00PM:** break 😅
-- **7:00PM:** dinner at TBD🍴
+- **7:00PM:** dinner at [Lulu California Bistro](https://lulupalmsprings.com/)🍴
 
 ### Tuesday, October 15, 2023:
 - **7:00AM-11:30AM:** ATV Riding at [Steve's ATV Rentals](https://stevesatvrentals.com/palm-springs-atv-rentals/)
